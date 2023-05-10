@@ -5,5 +5,12 @@
 }
 h1{
     position: absolute;
-    font-size: 150px;
+    font-size: 60px;
+}
+
+.socials{
+position: absolute;
+font-size: 250%;
+top: 35%
+
 }
