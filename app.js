@@ -90,10 +90,19 @@ const icon7 = Matter.Bodies.rectangle(150, 550, 40, 40, {
 const icon8 = Matter.Bodies.rectangle(250, 550, 40, 40, {
     isStatic: true,
     render: {
-        fillStyle: 'limegreen',
+        fillStyle: 'green',
         strokeStyle: 'black'
-    }
+    },
+    url: "https://www.phone.com"
 });
+
+
+
+
+
+
+
+
 
 const phoneBody = Matter.Body.create({
     parts: [phoneOutline, screen, icon1, icon2, icon3, icon4, icon5, icon6, icon7, icon8]
